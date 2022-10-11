@@ -1,0 +1,40 @@
+.form-container {
+  position: absolute;
+  top: -24em;
+  background-color: #FFF;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  width: 35em;
+  transition: .3s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  grid-row: 1/1;
+  grid-column: 1/1;
+}
+
+
+.ant-btn {
+  margin-right: 8px;
+}
+
+.add-media-btn {
+  position: absolute;
+  background-color: #FFF;
+  width: 4em;
+  height: 4em;
+  border: none;
+  border-radius: 50vh;
+  bottom: -2em;
+  left: calc(50% - 2em);
+  transition: .3s;
+}
+
+.add-media-btn:hover {
+  scale: 1.1;
+}
+
+.add-media-btn img {
+  width: 20px;
+  margin-top: 20px;
+}

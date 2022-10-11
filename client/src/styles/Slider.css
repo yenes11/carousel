@@ -1,0 +1,37 @@
+.slider-container {
+  background: #000;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* position: absolute; */
+  top: 0;
+  grid-row: 1/1;
+  grid-column: 1/1;
+}
+
+.media {
+  margin: auto;
+}
+
+.nav-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  border: none;
+  width: 4em;
+  height: 4em;
+  border-radius: 50vh;
+  margin: 2em;
+  transition: .3s;
+}
+
+.nav-btn:hover {
+  scale: 1.1;
+}
+
+.next {
+  right: 0;
+}
